@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>/* Stylesheet 1: */
+body {
+	background-image:  url('img_girl.jpg');
+	background-repeat: no-repeat ;
+	
+	background-size: cover;
+
+    font: 100% Lucida Sans, Verdana;
+    margin: 20px;
+    line-height: 26px;
+}
+
+.container {
+    xmin-width: 900px;
+}
+
+.wrapper {
+    position: relative;
+    overflow: auto;
+}
+
+#top, #sidebar1, #bottom, .menu_item {
+    border-radius: 4px;
+    margin: 4px;
+}
+
+#top {
+    background-color: lightgrey;
+    text-align: center;
+    color: #fffffff;
+    border-radius: 12px;
+    padding: 15px;
+}
+
+#menu_bar {
+    width: 200px;
+    float: left
+}
+
+#main_body {
+    padding: 10px;
+    margin: 0 210px;
+    color: #ffffff;
+}
+
+#sidebar1 {
+	border-radius: 12px;
+    background-color: lightblue;
+    color: #ffffff;
+    padding: 10px;
+    width: 180px;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+#sidebar1 h3{
+	background-color:lightsalmon;
+	color:#000000;
+	padding: 5px;
+}
+
+#bottom {
+    
+    background-image: radial-gradient(lightsalmon, lightblue);
+    text-align: center;
+    padding: 10px;
+    font-size: 80%;
+    line-height: 14px;
+}
+#bottom p{
+	font-style: italic;
+}
+#top h1, #top p, #menu_list {
+    margin: 0;
+    padding: 0;
+}
+
+.menu_item {
+    background-color: #f1f1f1;
+   
+    border: 1px solid #d4d4d4;
+    list-style-type: none;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.menu_item a:hover {
+    background-color: #ffff99;
+    text-decoration:none;
+}
+
+.menu_item:first-child {
+   background-color:lightblue;
+   color: white;
+   font-weight:bold;
+}
+
+a {
+    color: #000000;
+    text-decoration:none;
+}
+
+a:hover {
+    background-color: lightsteelblue;
+    text-decoration: underline;
+}
+footer{
+	text-align: center;
+
+}
+
+@media (max-width: 800px) {
+    #sidebar1 {
+        width: auto;
+        position: relative;
+    } 
+    #main_body {
+        margin-right: 0;
+    }    
+       
+}
+
+@media (max-width: 600px) {
+    #menu_bar {
+        width: auto;
+        float: none;
+    }
+    #main_body {
+        margin: 0;
+    }  
+
+}
+</style>
+
+
+
+</head>
+<body>
+
+<div class="container wrapper">
+  <div id="top">
+    <h1>QUOTES For Any Occasion</h1>
+    <p>Creating simple HTML and CSS webpages for beginners.</p>
+  </div>
+  <div class="wrapper">
+   <div id="menu_bar">
+     <ul id="menu_list">
+       <li class="menu_item"><a href="Stylesheet1.html">Motivation Quotes</a></li>
+       <li class="menu_item"><a href="Stylesheet2.html">Famous Quotes</a></li>
+       <li class="menu_item" ><a href="Stylesheet3.html">Inspirational Quotes</a></li>
+       <li class="menu_item" ><a href="Stylesheet4.html">Positive Quotes</a></li>
+       <li class="menu_item" ><a href="No_Stylesheet.html">Quotes On life</a></li>
+     </ul>
+    </div>
+    <div id="main_body">
+      <h1>Quotes By Great Leaders</h1>
+      <p>This article demonstrates how different style sheets can change the layout of single HTML page. You can see the layout of different pages by clicking quote links in the menu, or by selecting one of the following links below:<br>
+      <a href="Stylesheet1.html">Motivation Quotes</a>,
+      <a href="Stylesheet2.html">Famous Quotes</a>,
+      <a href="Stylesheet3.html" >Inspirational Quotes</a>,
+      <a href="Stylesheet4.html" >Positive Quotes</a>.
+      
+      
+      </p>
+       <h2>Tips Only For Beginners</h2>
+      <p>You ought to have the option to learn enough of the rudiments of HTML and CSS to allow you to fabricate a basic site in two or three hours. I propose learning it by viewing a video of somebody live coding a site and clarifying each line as they compose it.<br>You can click on the baove link to see how a page look likes without styling<a href="No_stylesheet.html">(Quotes On Life)</a>.</p>
+   </div>
+    <div id="sidebar1">
+      <h3>Mahatma Gandhi</h3>
+      <p>Happiness is when what you think, what you say, and what you do are in harmony.</p>
+    </div>
+  </div>  
+  
+  
+  <div id="bottom">
+  	<h3>Quotes By APJ Abdul Kalam</h3>
+    <p>“Don’t take rest after your first victory because if you fail in second, more lips are waiting to say that your first victory was just luck.”</p>
+    <p>“If you fail, never give up because FAIL means "First Attempt In Learning.”</p>
+    <h3>Quotes By Gautama Buddha</h3>
+    <p>“No one saves us but ourselves. No one can and no one may. We ourselves must walk the path.”</p>
+    <p>“The mind is everything. What you think you become.”</p>
+    <h3>Quotes By Rabindranath Tagore</h3>
+    <p>“Faith is the bird that feels the light when the dawn is still dark.”</p>
+    <p>“ The butterfly counts not months but moments, and has time enough.”</p>
+  </div>
+
+</div>
+<footer>&copy; Copyright 2020 </footer>
+
+</body>
+	</html>
